@@ -1,0 +1,27 @@
+{
+  "name": "desafio-coleta_grx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predev": "npm i --prefix ./app/backend && npm i --prefix ./app/frontend",
+    "start": "npm run start:backend && npm run start:frontend",
+    "start:backend": "cd ./app/backend && npm start",
+    "start:frontend": "cd ./app/frontend && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiogoFiuza/Desafio-Coleta-GRX.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiogoFiuza/Desafio-Coleta-GRX/issues"
+  },
+  "homepage": "https://github.com/DiogoFiuza/Desafio-Coleta-GRX#readme",
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
