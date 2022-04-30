@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm i --prefix ./app/backend && npm i --prefix ./app/frontend",
+    "start": "npm run start:backend && npm run start frontend",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start"
   },
   "repository": {
     "type": "git",
