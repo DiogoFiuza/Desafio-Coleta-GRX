@@ -1,0 +1,20 @@
+{
+  "name": "desafio-coleta-grx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiogoFiuza/Desafio-Coleta-GRX.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiogoFiuza/Desafio-Coleta-GRX/issues"
+  },
+  "homepage": "https://github.com/DiogoFiuza/Desafio-Coleta-GRX#readme"
+}
