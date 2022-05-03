@@ -22,7 +22,7 @@ export default function Justify() {
         inputProps={{ minLength: 15, maxLength: 200 }}
         required
       />
-      <span>
+      <span className="contador">
         {textLength}
         /200
       </span>

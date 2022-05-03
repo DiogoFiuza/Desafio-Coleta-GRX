@@ -54,7 +54,7 @@ function Forms() {
           }}
         >
           <img className="image-form" src={img} alt="" />
-          <Divider sx={{ m: 2 }}>Formulário GRX</Divider>
+          <Divider />
           <h4 className="question">1 - Você se considera bom em lógica?</h4>
           <AskLogic />
           <h4 className="question">2 - Gosta de aprender com desafios?</h4>
