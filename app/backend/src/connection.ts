@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const MONGO_DB_URL = 'mongodb://localhost:27017/coleta';
+const MONGO_DB_URL = 'mongodb://localhost:27017/Coleta';
 
 const connectToDatabase = (
   mongoDatabaseURI = MONGO_DB_URL,

@@ -10,7 +10,6 @@ class ColetaController {
   public getDatas = async (req: Request, res: Response): Promise<Response> => {
     try {
       const datas = await this.coletaService.getDatas();
-
       return res.status(200).send(datas);
     } catch (err: unknown) {
       return res.status(500).send({ message: this.internalError });

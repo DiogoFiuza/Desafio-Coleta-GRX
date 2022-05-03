@@ -14,7 +14,7 @@ const ColetaSchema = new Schema<ColetaDocument>({
 }, { versionKey: false });
 
 class ColetaModel {
-  constructor(public model = createModel('coleta', ColetaSchema)) { }
+  constructor(public model = createModel('Coleta', ColetaSchema)) { }
   
   public async getDatas(): Promise<FormsData[] | void> {
     const datas = await this.model.find();
