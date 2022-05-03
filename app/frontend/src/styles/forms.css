@@ -1,0 +1,17 @@
+.image-form {
+  width: 20vh;
+  border-radius: 15px;
+  display: flex;
+  align-self: center;
+}
+
+.container{
+  padding: 1rem;
+  max-width: 100% !important;
+  background-size: cover;
+  background-image: url('http://www.grxsolucoes.com.br/wa_images/site-1---s-mouse.png?v=1g3in58');
+}
+
+.question {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

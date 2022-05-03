@@ -21,5 +21,6 @@ module.exports = {
     'react/jsx-no-constructed-context-values': 'off',
     'no-console': 'off',
     'no-restricted-syntax': 'off',
+    'import/no-relative-packages': 'off',
   },
 };
