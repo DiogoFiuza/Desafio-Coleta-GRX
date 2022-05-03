@@ -20,5 +20,6 @@ module.exports = {
   rules: {
     'react/jsx-no-constructed-context-values': 'off',
     'no-console': 'off',
+    'no-restricted-syntax': 'off',
   },
 };

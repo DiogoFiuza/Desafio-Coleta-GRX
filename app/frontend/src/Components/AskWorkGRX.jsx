@@ -20,8 +20,8 @@ export default function AskWorkGRX() {
         onChange={(event) => handleChange(event)}
         row
       >
-        <FormControlLabel value="Sim" control={<Radio />} label="Sim" />
-        <FormControlLabel value="Não" control={<Radio />} label="Não" />
+        <FormControlLabel value="SIM" control={<Radio />} label="Sim" />
+        <FormControlLabel value="NÃO" control={<Radio />} label="Não" />
         <FormControlLabel value="Não sei" control={<Radio />} label="Não sei" />
         <FormControlLabel value="Agora!!" control={<Radio />} label="Agora!!" />
       </RadioGroup>

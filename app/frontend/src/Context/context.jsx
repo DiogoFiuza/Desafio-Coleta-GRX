@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 export const Context = React.createContext({});
 
 export function Provider({ children }) {
+  const [enableButton, setEnableButton] = useState(true);
   const [formdata, setFormData] = useState({
     Pergunta1: '',
     Pergunta2: '',
@@ -14,6 +15,8 @@ export function Provider({ children }) {
   const values = {
     formdata,
     setFormData,
+    enableButton,
+    setEnableButton,
   };
 
   return (
