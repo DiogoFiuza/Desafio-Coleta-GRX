@@ -1,0 +1,30 @@
+.qtyPositive {
+  padding: 5px;
+  padding-bottom: 0%;
+  margin: 0%;
+  background-color: rgba(240, 240, 240, 0.219);
+  border-radius: 5px;
+}
+
+.total {
+  margin-top: 10%;
+  background-color: rgb(60, 60, 60, 0.3);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.table {
+  font-family: 'Franklin Gothic Medium',
+  'Arial Narrow',
+  Arial,
+  sans-serif;
+  padding-top: 10px;
+  background-color: rgb(120, 122, 122);
+  border-radius: 15px;
+}
+
+ .table p {
+   padding: 0%;
+   margin: 0%;
+ }
