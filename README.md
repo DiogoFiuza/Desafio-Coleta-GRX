@@ -27,3 +27,26 @@
 ## Feedback 👌
 
 <p>Gostei muito do projeto, apesar de ter sido pessoalmente muito desafiador, tive a oportunidade de aprender muito durante o desenvolvimento do mesmo. Estou feliz do resultado que estou entregando e ainda pretendo melhorar-lo</p>
+
+## Como inicializar o projeto?
+
+1. Primeiro passo é fazer o clone do projeto, com o seguinte comando:
+
+    `git clone git@github.com:DiogoFiuza/Desafio-Coleta-GRX.git`
+
+2. Instalar as dependências do projeto basta digitar o seguinte comando na raiz do projeto.
+
+    `npm install`
+
+3. Para rodar o backend basta dar o seguinte comando na raiz do projeto.
+
+    `npm run start:backend`
+
+4. Para rodar o frontend basta abrir outro terminal na raiz e digitar o seguinte comando.
+
+    `npm run start:frontend`
+
+4. Após o front e o back entrarem em execução, abra a rota para verificar a aplicação.
+
+    `http://localhost:3000/`
+
